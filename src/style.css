@@ -479,3 +479,8 @@ input.text {
   background: var(--accent);
   color: #06283d;
 }
+
+.tile .label.in-dock {
+  font-size: 11px;
+  max-width: 64px;
+}

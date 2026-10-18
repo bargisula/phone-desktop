@@ -32,9 +32,8 @@ let cleanup: (() => void) | void;
 let clockTimer: number | undefined;
 
 function tile(a: AppDef, dock = false): string {
-  const inner = `<span class="icon" style="background:${a.color}">${a.icon}</span>${
-    dock ? '' : `<span class="label">${esc(a.name)}</span>`
-  }`;
+  // dock 也要顯示名稱，否則只看圖示不知道是什麼
+  const inner = `<span class="icon" style="background:${a.color}">${a.icon}</span><span class="label${dock ? ' in-dock' : ''}">${esc(a.name)}</span>`;
   return a.type === 'link'
     ? `<a class="tile" data-id="${a.id}" href="${esc(a.url ?? '#')}" target="_blank" rel="noopener">${inner}</a>`
     : `<a class="tile" data-id="${a.id}" href="#/a/${a.id}">${inner}</a>`;
