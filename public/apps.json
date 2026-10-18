@@ -1,0 +1,9 @@
+[
+  { "id": "outing", "name": "出門燈", "icon": "🚦", "color": "#16a34a", "type": "inline", "dock": true, "keywords": "天氣 雨 傘 aqi 紫外線 騎車 跑步 出門" },
+  { "id": "youbike", "name": "YouBike", "icon": "🚲", "color": "#f59e0b", "type": "inline", "dock": true, "keywords": "ubike 腳踏車 借車 還車 站點" },
+  { "id": "parking", "name": "停車", "icon": "🅿️", "color": "#2563eb", "type": "inline", "dock": true, "keywords": "停車場 車位 汽車 機車 電動車 充電" },
+  { "id": "weather", "name": "天氣", "icon": "⛅", "color": "#0ea5e9", "type": "inline", "dock": true, "keywords": "氣溫 降雨 預報" },
+  { "id": "snake", "name": "貪食蛇", "icon": "🐍", "color": "#22c55e", "type": "inline", "dock": false, "keywords": "遊戲 snake" },
+  { "id": "running", "name": "跑步紀錄", "icon": "🏃", "color": "#ef4444", "type": "link", "url": "https://running-pwa.bargisula.workers.dev/", "dock": false, "keywords": "跑步 gps 配速 running" },
+  { "id": "labor", "name": "勞動法規", "icon": "⚖️", "color": "#7c3aed", "type": "link", "url": "https://labor-law-pwa.pages.dev/", "dock": false, "keywords": "勞基法 法規 加班 勞動" }
+]
