@@ -449,3 +449,33 @@ input.text {
   display: flex;
   gap: 10px;
 }
+
+.dpad {
+  display: grid;
+  grid-template-columns: repeat(3, 76px);
+  grid-template-areas: '. up .' 'left . right' '. down .';
+  gap: 8px;
+}
+.dpad button {
+  height: 60px;
+  font-size: 24px;
+  padding: 0;
+  touch-action: manipulation;
+  user-select: none;
+}
+.dpad [data-d='up'] {
+  grid-area: up;
+}
+.dpad [data-d='left'] {
+  grid-area: left;
+}
+.dpad [data-d='down'] {
+  grid-area: down;
+}
+.dpad [data-d='right'] {
+  grid-area: right;
+}
+.dpad button:active {
+  background: var(--accent);
+  color: #06283d;
+}

@@ -14,7 +14,13 @@ export default function mount(root: HTMLElement): () => void {
         <button class="btn" id="pause">暫停</button>
         <button class="btn primary" id="restart">重新開始</button>
       </div>
-      <div class="muted small">在遊戲區滑動轉向；切到背景會自動暫停</div>
+      <div class="dpad">
+        <button class="btn" data-d="up" aria-label="上">▲</button>
+        <button class="btn" data-d="left" aria-label="左">◀</button>
+        <button class="btn" data-d="down" aria-label="下">▼</button>
+        <button class="btn" data-d="right" aria-label="右">▶</button>
+      </div>
+      <div class="muted small">按方向鍵或在遊戲區滑動轉向；切到背景會自動暫停</div>
     </div>`;
 
   const cv = root.querySelector<HTMLCanvasElement>('#cv')!;
@@ -24,7 +30,7 @@ export default function mount(root: HTMLElement): () => void {
   const pauseBtn = root.querySelector<HTMLButtonElement>('#pause')!;
   const ctx = cv.getContext('2d')!;
 
-  const size = Math.floor(Math.min(root.clientWidth - 2, window.innerHeight - 260, 420) / N) * N;
+  const size = Math.floor(Math.min(root.clientWidth - 2, window.innerHeight - 400, 420) / N) * N;
   const cell = size / N;
   const dpr = window.devicePixelRatio || 1;
   cv.width = size * dpr;
@@ -200,6 +206,14 @@ export default function mount(root: HTMLElement): () => void {
       e.preventDefault();
     },
     { passive: false },
+  );
+
+  root.querySelectorAll<HTMLButtonElement>('.dpad button').forEach((b) =>
+    b.addEventListener('pointerdown', (e) => {
+      e.preventDefault();
+      if (state === 'paused') resume();
+      turn(b.dataset.d as Dir);
+    }),
   );
 
   const onKey = (e: KeyboardEvent) => {
