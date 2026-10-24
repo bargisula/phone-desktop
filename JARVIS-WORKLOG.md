@@ -8,3 +8,4 @@
 - 2026-10-24｜主畫面新增「🍽️ 附近吃什麼」連結（link 到 restaurant-pwa），README 同步；push main 觸發 Pages 部署｜public/apps.json｜direct
 - 2026-10-24｜主畫面新增「🌀 颱風動態」連結（link 到 typhoon-pwa），README 同步；push main 觸發 Pages 部署｜public/apps.json｜direct
 - 2026-10-24｜主畫面新增「🏠 附近房價」連結（link 到 realprice-pwa），README 同步；push main 觸發 Pages 部署｜public/apps.json｜direct
+- 2026-10-24｜主畫面新增「📷 鏡頭君」連結（link 到 webcam-pwa），README 同步；push main 觸發 Pages 部署｜public/apps.json｜direct
