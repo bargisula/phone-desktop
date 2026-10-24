@@ -10,3 +10,4 @@
 - 2026-10-24｜主畫面新增「🏠 附近房價」連結（link 到 realprice-pwa），README 同步；push main 觸發 Pages 部署｜public/apps.json｜direct
 - 2026-10-24｜主畫面新增「📷 鏡頭君」連結（link 到 webcam-pwa），README 同步；push main 觸發 Pages 部署｜public/apps.json｜direct
 - 2026-10-24｜主畫面新增「🎭 這週末去哪」連結（link 到 weekend-pwa），README 同步；push main 觸發 Pages 部署｜public/apps.json｜direct
+- 2026-10-25｜主畫面新增「🎋 抽籤解籤」連結（link 到 fortune-pwa），README 同步；push main 觸發 Pages 部署｜public/apps.json｜direct
