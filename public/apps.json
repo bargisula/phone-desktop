@@ -6,5 +6,6 @@
   { "id": "snake", "name": "貪食蛇", "icon": "🐍", "color": "#22c55e", "type": "inline", "dock": false, "keywords": "遊戲 snake" },
   { "id": "running", "name": "跑步紀錄", "icon": "🏃", "color": "#ef4444", "type": "link", "url": "https://running-pwa.bargisula.workers.dev/", "dock": false, "keywords": "跑步 gps 配速 running" },
   { "id": "labor", "name": "勞動法規", "icon": "⚖️", "color": "#7c3aed", "type": "link", "url": "https://labor-law-pwa.pages.dev/", "dock": false, "keywords": "勞基法 法規 加班 勞動" },
-  { "id": "restaurant", "name": "附近吃什麼", "icon": "🍽️", "color": "#d9480f", "type": "link", "url": "https://restaurant-pwa.bargisula.workers.dev/", "dock": false, "keywords": "餐廳 吃飯 午餐 晚餐 美食 附近 隨機 restaurant" }
+  { "id": "restaurant", "name": "附近吃什麼", "icon": "🍽️", "color": "#d9480f", "type": "link", "url": "https://restaurant-pwa.bargisula.workers.dev/", "dock": false, "keywords": "餐廳 吃飯 午餐 晚餐 美食 附近 隨機 restaurant" },
+  { "id": "typhoon", "name": "颱風動態", "icon": "🌀", "color": "#0b3d63", "type": "link", "url": "https://typhoon-pwa.bargisula.workers.dev/", "dock": false, "keywords": "颱風 颱風路徑 氣象 天氣 風雨 停班停課 typhoon" }
 ]
