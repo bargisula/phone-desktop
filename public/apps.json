@@ -11,5 +11,6 @@
   { "id": "realprice", "name": "附近房價", "icon": "🏠", "color": "#2f6b4f", "type": "link", "url": "https://realprice-pwa.bargisula.workers.dev/", "dock": false, "keywords": "房價 實價登錄 不動產 買房 成交 趨勢 坪價 房屋" },
   { "id": "webcam", "name": "鏡頭君", "icon": "📷", "color": "#1f3a4d", "type": "link", "url": "https://webcam-pwa.bargisula.workers.dev/", "dock": false, "keywords": "鏡頭 即時影像 直播 景點 武陵 阿里山 墾丁 太平山 合歡山 澎湖 webcam" },
   { "id": "weekend", "name": "這週末去哪", "icon": "🎭", "color": "#7b3fa0", "type": "link", "url": "https://weekend-pwa.bargisula.workers.dev/", "dock": false, "keywords": "週末 活動 展覽 音樂 戲劇 演唱會 藝文 親子 講座 電影 附近" },
-  { "id": "fortune", "name": "抽籤解籤", "icon": "🎋", "color": "#8b2e2e", "type": "link", "url": "https://fortune-pwa.bargisula.workers.dev/", "dock": false, "keywords": "抽籤 解籤 籤詩 關帝 媽祖 算命 運勢 擲筊 求籤" }
+  { "id": "fortune", "name": "抽籤解籤", "icon": "🎋", "color": "#8b2e2e", "type": "link", "url": "https://fortune-pwa.bargisula.workers.dev/", "dock": false, "keywords": "抽籤 解籤 籤詩 關帝 媽祖 算命 運勢 擲筊 求籤" },
+  { "id": "ziwei", "name": "紫微日誌", "icon": "🌌", "color": "#201632", "type": "link", "url": "https://ziwei-diary.bargisula.workers.dev/", "dock": false, "keywords": "紫微 斗數 命盤 本命盤 排盤 算命 命理 ziwei" }
 ]
